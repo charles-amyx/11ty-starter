@@ -27,10 +27,3 @@ This site is deployed by, and hosted by [Netlify](https://www.netlify.com/).
   </a>
 </p>
 
-## One-click deploy
-To get your own instance of this [Eleventy](https://11ty.io) starter project
-cloned and deploying to [Netlify](https://www.netlify.com) very quickly, just
-click the button below and follow the instructions.
-
-[![Deploy to Netlify](/images/deploy-to-netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/charles-amyx/11ty-starter)
-
