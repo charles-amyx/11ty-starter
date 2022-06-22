@@ -18,9 +18,9 @@ This site is deployed by, and hosted by [Netlify](https://www.netlify.com/).
 
 <p class="flex items-center m-0">
   Latest deploy status:
-  <a href="https://app.netlify.com/sites/11st-starter-kit/deploys" class="ml-2">
+  <a href="https://app.netlify.com/sites/hilarious-lily-fe1a3b/deploys" class="ml-2">
     <img
-      src="https://api.netlify.com/api/v1/badges/ec6da587-72ba-490a-ad4b-167802a9c197/deploy-status"
+      src="https://api.netlify.com/api/v1/badges/3977c82e-5762-4615-b921-72660a1d9945/deploy-status"
       style="margin: 0"
       alt="Netlify Status"
     />

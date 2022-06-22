@@ -1,7 +1,7 @@
 # 📦 11ty-Starter-Kit
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ec6da587-72ba-490a-ad4b-167802a9c197/deploy-status)](https://app.netlify.com/sites/11st-starter-kit/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3977c82e-5762-4615-b921-72660a1d9945/deploy-status)](https://app.netlify.com/sites/hilarious-lily-fe1a3b/deploys)
 
 [11ty](https://www.11ty.dev/), powered by [Vite](https://vitejs.dev/)
 with [Tailwind CSS](https://tailwindcss.com) and
