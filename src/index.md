@@ -9,9 +9,8 @@ intro:
   title: 'Welcome to Your Eleventy App'
   desc:
     'For a guide and recipes on how to configure / customize this project, check
-    out the <a href="https://www.11ty.dev/docs/" class="text-gray-900
-    font-medium underline">Eleventy</a> and <a href="https://vitejs.dev/"
-    class="text-gray-900 font-medium underline">Vite</a> documentation.'
+    out the <a href="https://www.11ty.dev/docs/" class="font-medium text-gray-900 underline">Eleventy</a> and <a href="https://vitejs.dev/"
+    class="font-medium text-gray-900 underline">Vite</a> documentation.'
 ---
 
 ## Community
@@ -31,3 +30,6 @@ CSS](https://github.com/aniftyco/awesome-tailwindcss) -
 
 [Eleventy](https://www.11ty.dev/) - [Vite](https://vitejs.dev/) -
 [Tailwind CSS](https://tailwindcss.com/) - [Alpine.js](https://github.com/alpinejs/alpine/)
+
+## Font test
+### Almost before we knew it, we had left the ground.
