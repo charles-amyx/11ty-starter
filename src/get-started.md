@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/home.html'
+layout: 'layouts/plain.html'
 title: 'Get Started'
 meta:
   desc:
