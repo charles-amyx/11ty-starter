@@ -20,9 +20,9 @@ intro:
   title: 'All day long, dragons delight: swells coil.'
   desc:
     'And surge into banks, then startle back out. Rains too sparse to set roads glistening. '
-callout:
+benefits:
   title: 'Callout Title'
-  
+
 ---
 
 Broken clouds thin away. Come again in a rush, they swell purple cliffs black, harry white birds into distances radiant. And soon dampen autumn-sun shadow, clatter ancient rain across a cold river. Below our brushwood gate, at the mill: hulled plain-rice, half-wet and fragrant.
