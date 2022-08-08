@@ -1,36 +1,163 @@
-<footer class="pt-16 text-white bg-slate-800 sm:pt-32">
-    <div class="flex items-start max-w-screen-xl px-4 pb-8 mx-auto">
-        <div class="mr-8">
-            <a class="block text-2xl font-extrabold leading-none tracking-wider transition text-sky-300 hover:text-sky-200 focus:text-sky-200" href="/">
-                <span class="sr-only">Home</span>
-                āxōlōtl
-            </a>
-        </div>
-        <div>
-            <nav aria-labelledby="footer-navigation">
-                <h2 class="sr-only" id="footer-navigation">Footer navigation</h2>
-                <ul class="text-sm">
-                    {% for item in navigation.items %}
-                        <li class="pb-2 last:pb-0">
-                            <a href="{{ item.url }}" class="font-bold text-white transition hover:text-white/75 focus:text-white/75" {{
+<footer class="bg-gray-900">
+    <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="lg:grid lg:grid-cols-2">
+            <div class="py-16 border-b border-gray-800 lg:border-b-0 lg:border-l lg:order-last lg:py-24 lg:pl-12">
+                <div class="flex justify-center text-teal-300 lg:hidden">
+                    <a class="block text-2xl font-extrabold leading-none tracking-wider transition text-sky-300 hover:text-sky-200 focus:text-sky-200" href="/">
+                        <span class="sr-only">Home</span>
+                        āxōlōtl
+                    </a>
+                </div>
+
+                <div class="mt-12 space-y-4 lg:mt-0">
+                    <span class="rounded bg-sky-500 lg:h-1 lg:w-10 lg:block"></span>
+
+                    <div class="text-center lg:text-left">
+                        <h5 class="text-2xl font-medium text-white">Request the Thing</h5>
+
+                        <p class="max-w-md mx-auto mt-4 text-sm leading-relaxed text-gray-400 lg:mx-0">
+                            Things need not have happened to be true. Tales and dreams are the shadow-truths that will endure when mere facts are dust and ashes, and forgot.
+                        </p>
+                    </div>
+
+                    <form class="mt-6">
+                        <div class="relative max-w-lg mx-auto lg:mx-0">
+                            <label class="sr-only" for="email">
+                                Email
+                            </label>
+
+                            <input class="w-full py-4 pl-3 pr-16 text-sm text-white bg-gray-800 border-none rounded-md" id="email" type="email" placeholder="Enter your email to begin your magical journey"/>
+
+                            <button class="absolute p-3 transition -translate-y-1/2 bg-sky-500 hover:bg-sky-700 text-white rounded top-1/2 right-1.5" type="button">
+                                <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="pt-16 pb-8 lg:pt-24 lg:pr-12">
+                <div class="hidden text-teal-300 lg:flex">
+                    <a class="block text-2xl font-extrabold leading-none tracking-wider transition text-sky-300 hover:text-sky-200 focus:text-sky-200" href="/">
+                        <span class="sr-only">Home</span>
+                        āxōlōtl
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:mt-12">
+                    <div class="text-center lg:text-left">
+                        <p class="text-lg font-medium text-white">Menu</p>
+
+                        <nav class="mt-4" aria-labelledby="footer-navigation">
+                            <h2 class="sr-only" id="footer-navigation">Footer navigation</h2>
+                            <ul class="space-y-1.5 text-sm">
+                                {% for item in navigation.items %}
+                                    <li>
+                                        <a href="{{ item.url }}" class="text-white transition hover:text-white/75 focus:text-white/75" {{
                 current
                 }}>
-                                {{ item.text }}
-                            </a>
-                        </li>
-                    {% endfor %}
-                </ul>
+                                            {{ item.text }}
+                                        </a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
 
-            </nav>
-        </div>
-    </div>
-    <div class="py-4 border-t border-slate-700 bg-slate-900">
-        <div class="flex items-center max-w-screen-xl px-4 mx-auto text-xs justify-betwee">
-            <div>
-                &copy;
-                {% year %}
-                Meow meow meows |
-                <a class="text-white transition hover:text-sky-200 focus:text-sky-200 hover:underline focus:underline" href="/privacy-policy/">Privacy Policy</a>
+                        </nav>
+                    </div>
+
+                    <div class="text-center lg:text-left">
+                        <p class="text-lg font-medium text-white">Our Wolves</p>
+
+                        <nav class="mt-4">
+                            <ul class="space-y-1.5 text-sm">
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="/">
+                                        Big Wolves
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="/">
+                                        Medium Wolves
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="/">
+                                        Small Wolves
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="/">
+                                        Planet-sized Wolves
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="text-center lg:text-left">
+                        <p class="text-lg font-medium text-white">Helpful Links</p>
+
+                        <nav class="mt-4">
+                            <ul class="space-y-1.5 text-sm">
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="/">
+                                        FAQs
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="/">
+                                        Support
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="flex group justify-center gap-1.5 lg:justify-start" href="/">
+                                        <span class="text-white transition group-hover:text-white/75">
+                                            Live Chat
+                                        </span>
+
+                                        <span class="relative flex w-2 h-2">
+                                            <span class="absolute inline-flex w-full h-full bg-teal-400 rounded-full opacity-75 animate-ping"></span>
+                                            <span class="relative inline-flex w-2 h-2 bg-teal-500 rounded-full"></span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="pt-8 mt-16 text-sm text-white border-t border-gray-800 lg:mt-24">
+                    <p class="text-center lg:text-left">
+                        <a class="inline-block text-white underline transition hover:text-white/75" href="/">
+                            Privacy Policy
+                        </a>
+
+                        <span>&middot;</span>
+
+                        <a class="inline-block text-white underline transition hover:text-white/75" href="/">
+                            Terms & Conditions
+                        </a>
+
+                        <span>&middot;</span>
+
+                        <a class="inline-block text-white underline transition hover:text-white/75" href="/">
+                            Cookies
+                        </a>
+                    </p>
+
+                    <p class="mt-4 text-center lg:text-left">
+                        &copy;
+                        {% year %}
+                        Meow Meow Meow. All rights reserved.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
