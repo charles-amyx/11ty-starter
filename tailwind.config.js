@@ -15,7 +15,8 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
     require('./tailwind/skip-link'),
+    require('@tailwindcss/typography'),
   ],
 };

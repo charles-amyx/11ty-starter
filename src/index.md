@@ -31,7 +31,9 @@ benefits:
       icon: "life-buoy"
     - text: "Comfy in Nautica"
       icon: "anchor"
-
+form:
+  title: "Tales and Dreams"
+  intro: "One thing I've learned. You can know anything. It's all there. You just have to find it."
 ---
 
 Broken clouds thin away. Come again in a rush, they swell purple cliffs black, harry white birds into distances radiant. And soon dampen autumn-sun shadow, clatter ancient rain across a cold river. Below our brushwood gate, at the mill: hulled plain-rice, half-wet and fragrant.
