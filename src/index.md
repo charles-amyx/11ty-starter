@@ -15,7 +15,9 @@ hero:
   button02:
     text: 'Learn More'
     link: /about/
-  image: "https://images.unsplash.com/photo-1601758003122-53c40e686a19"
+  image:
+    path: "https://images.unsplash.com/photo-1601758003122-53c40e686a19"
+    alt: "Couple on a bed with a dog"
 intro:
   title: 'All day long, dragons delight: swells coil.'
   desc:
