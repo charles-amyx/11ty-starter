@@ -11,10 +11,10 @@ hero:
   dek: "Out of dark distant skies, light rain arrive. Soaking easily through loose roofing thatch. And these lowering clouds won't clear soon."
   button01:
     text: 'Get Started'
-    link: /get-started
+    link: /get-started/
   button02:
     text: 'Learn More'
-    link: /about
+    link: /about/
   image: "https://images.unsplash.com/photo-1601758003122-53c40e686a19"
 intro:
   title: 'All day long, dragons delight: swells coil.'
