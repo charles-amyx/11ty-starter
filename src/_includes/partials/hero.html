@@ -5,9 +5,9 @@
 
   <div class="relative px-4 py-32 mx-auto sm:px-6 lg:px-8 lg:h-screen-50 lg:items-center lg:flex">
     <div class="w-full max-w-screen-xl px-4 mx-auto text-center sm:text-left">
-      <h1 class="text-3xl font-extrabold leading-tight sm:text-5xl">
+      <h1 class="text-3xl font-extrabold sm:text-5xl">
         {{ hero.titleTop }}
-        <strong class="font-extrabold text-sky-700 sm:block">
+        <strong class="font-extrabold text-sky-700 lg:pt-2 sm:block">
           {{ hero.titleBottom }}
         </strong>
       </h1>
@@ -17,11 +17,11 @@
       </p>
 
       <div class="flex flex-wrap gap-4 mt-8 text-center">
-        <a class="block w-full px-12 py-3 text-sm font-bold tracking-wide text-white uppercase transition bg-sky-700 rounded shadow sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring hover:shadow-xl" href="{{ hero.button01.link }}">
+        <a class="block w-full px-12 py-3 text-sm font-bold tracking-wide text-white uppercase transition rounded shadow bg-sky-700 sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring hover:shadow-xl" href="{{ hero.button01.link }}">
           {{ hero.button01.text }}
         </a>
 
-        <a class="block w-full px-12 py-3 text-sm font-bold tracking-wide text-sky-700 uppercase transition bg-white rounded shadow sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring hover:shadow-xl" href="{{ hero.button02.link }}">
+        <a class="block w-full px-12 py-3 text-sm font-bold tracking-wide uppercase transition bg-white rounded shadow text-sky-700 sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring hover:shadow-xl" href="{{ hero.button02.link }}">
           {{ hero.button02.text }}
         </a>
       </div>
