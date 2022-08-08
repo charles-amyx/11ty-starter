@@ -34,6 +34,41 @@ benefits:
 form:
   title: "Tales and Dreams"
   intro: "One thing I've learned. You can know anything. It's all there. You just have to find it."
+accordions:
+  title: Songs With Accordions
+  items:
+    - title: "Neighborhood #2 (Laika) – Arcade Fire"
+      text: > 
+        "Alexander, our older brother
+        Set out for a great adventure
+        He tore our images out of his pictures
+        He scratched our names out of all his letters
+        Our mother shoulda just named you Laika"
+    - title: "The Mariner's Revenge Song - The Decemberists"
+      text: >
+        "We are two mariners
+        Our ships' sole survivors
+        In this belly of a whale
+        Its ribs are ceiling beams
+        Its guts are carpeting
+        I guess we have some time to kill"
+    - title: "Another One Rides the Bus - Weird Al Yankovic"
+      text: >
+        "Another one rides the bus-ah.
+        Another one rides the bus-ah.
+        And another comes on,
+        And another comes on.
+        Another one rides the bus-ah.
+        Hey!
+        He's gonna sit by you.
+        Another one rides the bus."
 ---
 
 Broken clouds thin away. Come again in a rush, they swell purple cliffs black, harry white birds into distances radiant. And soon dampen autumn-sun shadow, clatter ancient rain across a cold river. Below our brushwood gate, at the mill: hulled plain-rice, half-wet and fragrant.
+
+This treasure was discovered in a bamboo thicket &mdash;
+I washed the bowl in a spring and then mended it.
+After morning meditation, I take my gruel in it;
+At night, it serves me soup or rice.
+Cracked, worn, weather-beaten, and misshapen
+But still of noble stock! 

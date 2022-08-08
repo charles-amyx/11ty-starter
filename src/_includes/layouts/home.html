@@ -30,5 +30,8 @@
           {% endif %}
         {% endif %}
       </article>
+      {% if accordions %}
+        {% include "partials/accordion.html" %}
+      {% endif %}
     </main>
   {% endblock %}
