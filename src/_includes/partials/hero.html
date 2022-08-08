@@ -1,30 +1,30 @@
 <section class="relative mb-8 bg-white lg:mb-16">
-    <img class="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full opacity-25 sm:opacity-100" src="{{ hero.image }}" alt="Couple on a bed with a dog"/>
+  <img class="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full opacity-25 sm:opacity-100" src="{{ hero.image }}" alt="Couple on a bed with a dog"/>
 
-    <div class="hidden sm:block sm:inset-0 sm:absolute sm:bg-gradient-to-r sm:from-white sm:to-transparent"></div>
+  <div class="hidden sm:block sm:inset-0 sm:absolute sm:bg-gradient-to-r sm:from-white sm:to-transparent"></div>
 
-    <div class="relative px-4 py-32 mx-auto sm:px-6 lg:px-8 lg:h-screen-50 lg:items-center lg:flex">
-        <div class="w-full max-w-screen-xl px-4 mx-auto text-center sm:text-left">
-            <h1 class="text-3xl font-extrabold leading-tight sm:text-5xl">
-                {{ hero.titleTop }}
-                <strong class="font-extrabold text-teal-700 sm:block">
-                    {{ hero.titleBottom }}
-                </strong>
-            </h1>
+  <div class="relative px-4 py-32 mx-auto sm:px-6 lg:px-8 lg:h-screen-50 lg:items-center lg:flex">
+    <div class="w-full max-w-screen-xl px-4 mx-auto text-center sm:text-left">
+      <h1 class="text-3xl font-extrabold leading-tight sm:text-5xl">
+        {{ hero.titleTop }}
+        <strong class="font-extrabold text-sky-700 sm:block">
+          {{ hero.titleBottom }}
+        </strong>
+      </h1>
 
-            <p class="max-w-lg mt-4 sm:leading-relaxed sm:text-xl">
-                {{ hero.dek }}
-            </p>
+      <p class="max-w-lg mt-4 sm:leading-relaxed sm:text-xl">
+        {{ hero.dek }}
+      </p>
 
-            <div class="flex flex-wrap gap-4 mt-8 text-center">
-                <a class="block w-full px-12 py-3 text-sm font-medium text-white transition rounded shadow bg-rose-600 sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring hover:shadow-xl" href="{{ hero.button01.link }}">
-                    {{ hero.button01.text }}
-                </a>
+      <div class="flex flex-wrap gap-4 mt-8 text-center">
+        <a class="block w-full px-12 py-3 text-sm font-bold tracking-wide text-white uppercase transition bg-sky-700 rounded shadow sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring hover:shadow-xl" href="{{ hero.button01.link }}">
+          {{ hero.button01.text }}
+        </a>
 
-                <a class="block w-full px-12 py-3 text-sm font-medium transition bg-white rounded shadow text-rose-600 sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring hover:shadow-xl" href="{{ hero.button02.link }}">
-                    {{ hero.button02.text }}
-                </a>
-            </div>
-        </div>
+        <a class="block w-full px-12 py-3 text-sm font-bold tracking-wide text-sky-700 uppercase transition bg-white rounded shadow sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring hover:shadow-xl" href="{{ hero.button02.link }}">
+          {{ hero.button02.text }}
+        </a>
+      </div>
     </div>
+  </div>
 </section>
