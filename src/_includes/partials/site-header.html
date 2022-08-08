@@ -1,43 +1,56 @@
-<header>
-  <nav class="max-w-2xl px-4 mx-auto sm:px-6 lg:px-8">
+<header class="bg-gray-900">
+  <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
-      <figure class="flex items-center flex-shrink-0 space-x-1">
-        <img
-          alt="11st starter-kit logo"
-          class="w-auto h-8"
-          src="/images/logo.svg"
-          height="32"
-          width="32"
-        />
-        <figcaption>Starter-Kit</figcaption>
-      </figure>
-      <ul class="flex space-x-4">
-        {% for item in navigation.items %} {% if item.url == page.url %} {%
-        assign highlight = 'cursor-default' %} {% assign current =
-        'aria-current="page"' %} {% assign highlight = 'underline' %} {% else %} {% assign highlight = 'no-underline' %}
-        {% assign current = '' %} {% endif %}
-        <li>
-          <a
-            href="{{ item.url }}"
-            class="text-base font-bold {{ highlight }}"
-            {{
-            current
-            }}
-          >
-            {{ item.text }}
-          </a>
-        </li>
-        {% endfor %}
-        <li>
-          <a
-            href="https://github.com/charles-amyx/11ty-starter"
-            class="text-base font-bold hover:text-green-900"
-          >
-            GitHub
-          </a>
-        </li>
+      <div class="md:flex md:items-center md:gap-12">
+        <a class="block px-4 py-2 text-2xl font-extrabold leading-none tracking-wider text-teal-300 transition bg-transparent rounded-lg hover:bg-gray-800 focus:bg-gray-80 hover:text-teal-200 focus:text-teal-200" href="/">
+          <span class="sr-only">Home</span>
+          āxōlōtl
+        </a>
+      </div>
+      <div class="hidden md:block">
+        <nav aria-labelledby="header-navigation">
+          <h2 class="sr-only" id="header-navigation">Header navigation</h2>
+          <ul class="flex items-center gap-16 text-sm">
+            {% for item in navigation.items %}
+              {% if item.url == page.url %}
+                {%
+            assign highlight = 'cursor-default' %}
+                {% assign current =
+            'aria-current="page"' %}
+                {% assign highlight = 'underline' %}
+              {%
+            else %}
+                {% assign highlight = 'no-underline' %}
+                {% assign current = '' %}
+              {% endif %}
+              <li>
+                <a href="{{ item.url }}" class="text-white font-bold transition hover:text-white/75 focus:text-white/75 {{ highlight }}" {{
+                current
+                }}>
+                  {{ item.text }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
 
-      </ul>
+        </nav>
+      </div>
+      <div class="flex items-center gap-4">
+        <div class="sm:flex sm:gap-4">
+          <div class="hidden sm:flex">
+            <a class="rounded-md bg-gray-800 px-5 py-2.5 text-sm font-bold tracking-wide text-white hover:text-slate-900 focus:text-slate-900 hover:bg-teal-300 focus:bg-teal-300 transition uppercase" href="/">
+              Do A Thing
+            </a>
+          </div>
+        </div>
+        <div class="block md:hidden">
+          <button class="p-2 text-white transition bg-gray-800 rounded hover:text-white/75">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+          </button>
+        </div>
+      </div>
     </div>
-  </nav>
+  </div>
 </header>

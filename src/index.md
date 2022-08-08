@@ -30,6 +30,3 @@ CSS](https://github.com/aniftyco/awesome-tailwindcss) -
 
 [Eleventy](https://www.11ty.dev/) - [Vite](https://vitejs.dev/) -
 [Tailwind CSS](https://tailwindcss.com/) - [Alpine.js](https://github.com/alpinejs/alpine/)
-
-## Font test
-### Almost before we knew it, we had left the ground.
