@@ -21,10 +21,15 @@ intro:
   desc:
     'And surge into banks, then startle back out. Rains too sparse to set roads glistening. '
 benefits:
-  title: 'Callout Title'
+  title: 'Many Paths'
+  items:
+    - text: "Passerby"
+      icon: "heart"
+    - text: "Buoys"
+      icon: "life-buoy"
+    - text: "Comfy in Nautica"
+      icon: "anchor"
 
 ---
 
 Broken clouds thin away. Come again in a rush, they swell purple cliffs black, harry white birds into distances radiant. And soon dampen autumn-sun shadow, clatter ancient rain across a cold river. Below our brushwood gate, at the mill: hulled plain-rice, half-wet and fragrant.
-
-In farmland outside a lone city, our river village inhabits streamwater confusions. Deep mountains hurry brief winter light here, lofty trees at ease high amid winds. Cranes glide down, tough cloud shallows. Sharing our thatch hut, chickens settle-in. All night long, reading books in scattered candlelight—I can see through my demise.
