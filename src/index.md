@@ -6,38 +6,25 @@ meta:
     '11st-Starter-Kit is a minimal starting point for building static websites
     with 11ty, powered by Vite with Tailwind CSS and Alpine.js.'
 hero:
-  titleTop: Curabitur tempus
-  titleBottom:  Vestibulum Pharetra.
-  dek: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!
+  titleTop: 'Deep and clear, '
+  titleBottom: 'this long river flows away.'
+  dek: "Out of dark distant skies, light rain arrive. Soaking easily through loose roofing thatch. And these lowering clouds won't clear soon."
   button01:
-    text: Get Started
+    text: 'Get Started'
     link: /get-started
   button02:
-    text: Learn More
+    text: 'Learn More'
     link: /about
   image: "https://images.unsplash.com/photo-1601758003122-53c40e686a19"
 intro:
-  title: 'Welcome to Your Eleventy App'
+  title: 'All day long, dragons delight: swells coil.'
   desc:
-    'For a guide and recipes on how to configure / customize this project, check
-    out the <a href="https://www.11ty.dev/docs/" class="font-medium text-gray-900 underline">Eleventy</a> and <a href="https://vitejs.dev/"
-    class="font-medium text-gray-900 underline">Vite</a> documentation.'
+    'And surge into banks, then startle back out. Rains too sparse to set roads glistening. '
+callout:
+  title: 'Callout Title'
+  
 ---
 
-## Community
+Broken clouds thin away. Come again in a rush, they swell purple cliffs black, harry white birds into distances radiant. And soon dampen autumn-sun shadow, clatter ancient rain across a cold river. Below our brushwood gate, at the mill: hulled plain-rice, half-wet and fragrant.
 
-[Eleventy](https://www.11ty.dev/news/discord/) -
-[Vite](https://chat.vitejs.dev/) - [Tailwind
-CSS](https://tailwindcss.com/discord) - [Alpine.js](https://discord.gg/CGmj5nq)
-
-## Awesome
-
-[Eleventy](https://github.com/scottishstoater/awesome-eleventy) -
-[Vite](https://github.com/vitejs/awesome-vite) - [Tailwind
-CSS](https://github.com/aniftyco/awesome-tailwindcss) -
-[Alpine.js](https://github.com/alpine-collective/awesome)
-
-## Ecosystem
-
-[Eleventy](https://www.11ty.dev/) - [Vite](https://vitejs.dev/) -
-[Tailwind CSS](https://tailwindcss.com/) - [Alpine.js](https://github.com/alpinejs/alpine/)
+In farmland outside a lone city, our river village inhabits streamwater confusions. Deep mountains hurry brief winter light here, lofty trees at ease high amid winds. Cranes glide down, tough cloud shallows. Sharing our thatch hut, chickens settle-in. All night long, reading books in scattered candlelight—I can see through my demise.
