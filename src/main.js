@@ -1,9 +1,10 @@
 import './styles/main.css';
 
 import Alpine from 'alpinejs';
+import persist from '@alpinejs/persist';
 
 window.Alpine = Alpine;
-
+Alpine.plugin(persist);
 Alpine.start();
 
 const env = document.querySelector('body').dataset.env;

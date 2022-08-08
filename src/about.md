@@ -21,6 +21,10 @@ This site is deployed by, and hosted by [Netlify](https://www.netlify.com/).
 [Eleventy](https://www.11ty.dev/) - [Vite](https://vitejs.dev/) -
 [Tailwind CSS](https://tailwindcss.com/) - [Alpine.js](https://github.com/alpinejs/alpine/)
 
+## Hosting
+
+This site is deployed by, and hosted by [Netlify](https://www.netlify.com/). 
+
 <p class="flex items-center m-0">
   Latest deploy status:
   <a href="https://app.netlify.com/sites/hilarious-lily-fe1a3b/deploys" class="ml-2">
@@ -31,4 +35,3 @@ This site is deployed by, and hosted by [Netlify](https://www.netlify.com/).
     />
   </a>
 </p>
-
