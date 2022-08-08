@@ -5,6 +5,17 @@ meta:
   desc:
     '11st-Starter-Kit is a minimal starting point for building static websites
     with 11ty, powered by Vite with Tailwind CSS and Alpine.js.'
+hero:
+  titleTop: Curabitur tempus
+  titleBottom:  Vestibulum Pharetra.
+  dek: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!
+  button01:
+    text: Get Started
+    link: /get-started
+  button02:
+    text: Learn More
+    link: /about
+  image: "https://images.unsplash.com/photo-1601758003122-53c40e686a19"
 intro:
   title: 'Welcome to Your Eleventy App'
   desc:
