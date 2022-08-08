@@ -11,6 +11,11 @@ module.exports = function (config) {
   config.addPassthroughCopy('./src/styles');
   config.addPassthroughCopy('./src/main.js');
 
+  // Get the current year - super useful for copyright dates.
+  // Usage: {% year %}
+
+  config.addShortcode("year", () => `${new Date().getFullYear()}`);
+
   return {
     dir: {
       input: 'src',
