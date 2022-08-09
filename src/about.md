@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/plain.html'
+layout: 'layouts/plain.njk'
 title: 'About'
 meta:
   desc:

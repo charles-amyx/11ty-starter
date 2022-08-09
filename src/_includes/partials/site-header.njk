@@ -14,14 +14,14 @@
             {% for item in navigation.items %}
               {% if item.url == page.url %}
                 {%
-            assign highlight = 'cursor-default' %}
-                {% assign current =
+            set highlight = 'cursor-default' %}
+                {% set current =
             'aria-current="page"' %}
-                {% assign highlight = 'underline' %}
+                {% set highlight = 'underline' %}
               {%
             else %}
-                {% assign highlight = 'no-underline' %}
-                {% assign current = '' %}
+                {% set highlight = 'no-underline' %}
+                {% set current = '' %}
               {% endif %}
               <li>
                 <a href="{{ item.url }}" class="text-white font-bold transition hover:text-white/75 focus:text-white/75 {{ highlight }}" {{

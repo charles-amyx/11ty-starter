@@ -1,10 +1,10 @@
-{% layout "layouts/base.html" %}
+{% extends "layouts/base.njk" %}
 {% block content %}
   <main id="main-content" tabindex="-1">
-    {% include "partials/hero.html" %}
+    {% include "partials/hero.njk" %}
     {% if title == "Home" %}
       {% if benefits %}
-        {% include "partials/benefits-icon-bar.html" %}
+        {% include "partials/benefits-icon-bar.njk" %}
       {% endif %}
     {% endif %}
     {% if title == "Home" %}
@@ -26,12 +26,12 @@
         </section>
         {% if title == "Home" %}
           {% if form %}
-            {% include "partials/form.html" %}
+            {% include "partials/form.njk" %}
           {% endif %}
         {% endif %}
       </article>
       {% if accordions %}
-        {% include "partials/accordion.html" %}
+        {% include "partials/accordion.njk" %}
       {% endif %}
     </main>
   {% endblock %}

@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/home.html'
+layout: 'layouts/home.njk'
 title: 'Home'
 meta:
   desc:
@@ -36,7 +36,7 @@ form:
   intro: "One thing I've learned. You can know anything. It's all there. You just have to find it."
 accordions:
   title: Songs With Accordions
-  items:
+  accordion:
     - title: "Neighborhood #2 (Laika) – Arcade Fire"
       text: > 
         "Alexander, our older brother

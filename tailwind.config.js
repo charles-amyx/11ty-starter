@@ -3,7 +3,7 @@ const colors = require('./tailwind/colors');
 const spacing = require('./tailwind/spacing');
 
 module.exports = {
-  content: ['./src/**/*.html', './src/**/*.md'],
+  content: ['./src/**/*.njk', './src/**/*.html', './src/**/*.md'],
   theme: {
     extend: {
       colors,
