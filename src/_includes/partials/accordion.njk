@@ -8,13 +8,13 @@
                 <li class="relative border-b border-gray-200">
                     <button type="button" class="w-full px-8 py-6 text-left" @click="selected !== {{ accordion.id }} ? selected = {{ accordion.id }} : selected = null">
                         <div class="flex items-center justify-between">
-                            <h3>
+                            <h3 class="text-xl font-bold">
                                 {{ accordion.title }}
                             </h3>
                         </div>
                     </button>
                     <div class="relative overflow-hidden transition-all duration-700 max-h-0" style="" x-ref="container{{ accordion.id }}" x-bind:style="selected == {{ accordion.id }} ? 'max-height: 999px' : ''">
-                        <div class="p-6">
+                        <div class="px-8 py-6">
                             {{ accordion.content | safe }}
                         </div>
                     </div>
