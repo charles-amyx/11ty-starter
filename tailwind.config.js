@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       colors,
       fontFamily: {
-        sans: ['Mulish', ...defaultTheme.fontFamily.sans],
+        sans: [...defaultTheme.fontFamily.sans],
       },
       spacing,
     },
