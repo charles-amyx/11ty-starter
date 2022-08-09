@@ -1,0 +1,18 @@
+<section class="max-w-screen-xl py-8 mx-auto sm:py-20">
+    <div class="text-slate-800" x-data="{ selected: 'option-1' }">
+        <nav class="bg-white">
+            <ul class="flex justify-between border-b border-sky-200">
+                {% for tab in tabs.item %}
+                    <li class="px-4 py-2 transition border-b-2 border-transparent" x-bind:class="{ 'border-sky-600': selected === 'option-{{ tab.id }}' }">
+                        <a class="font-bold hover:text-sky-900" href="#option-{{ tab.id }}" x-on:click="selected = 'option-{{ tab.id }}'">{{ tab.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+        {% for tab in tabs.item %}
+            <div x-show.transition.in.opacity.duration.750ms="selected === 'option-{{ tab.id }}'" class="px-4 py-8">
+                <div class="max-w-2xl mx-auto">{{ tab.content }}</div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

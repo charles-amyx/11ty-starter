@@ -1,10 +1,10 @@
 {% extends "layouts/base.njk" %}
 {% block content %}
   <main id="main-content" tabindex="-1">
-    {% include "partials/hero.njk" %}
+    {% include "components/hero.njk" %}
     {% if title == "Home" %}
       {% if benefits %}
-        {% include "partials/benefits-icon-bar.njk" %}
+        {% include "components/benefits-icon-bar.njk" %}
       {% endif %}
     {% endif %}
     {% if title == "Home" %}
@@ -26,15 +26,18 @@
         </section>
         {% if title == "Home" %}
           {% if form %}
-            {% include "partials/form.njk" %}
+            {% include "components/form.njk" %}
           {% endif %}
         {% endif %}
       </article>
       {% if accordions %}
-        {% include "partials/accordion.njk" %}
+        {% include "components/accordion.njk" %}
+      {% endif %}
+      {% if twoCol %}
+        {% include "components/image-content.njk" %}
       {% endif %}
       {% if tabs %}
-        {% include "partials/tabs.njk" %}
+        {% include "components/tabs.njk" %}
       {% endif %}
     </main>
   {% endblock %}

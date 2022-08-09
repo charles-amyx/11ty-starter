@@ -65,7 +65,7 @@ accordions:
         He's gonna sit by you. <br>
         Another one rides the bus."
       id: 3
-tabs:
+twoCol:
   title: "Barnacles"
   content: >
     <p>
@@ -74,6 +74,59 @@ tabs:
   image:
     path: 'https://images.unsplash.com/photo-1570586790305-4f115cb439c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80'
     alt: 'A goose staring at the camera in a menacing manner'
+tabs:
+  item:
+    - title: 'Tab 1: Tabbum Tabsum Tolor Tamet'
+      content: >
+        1181655609
+        1639635633
+        8667397022
+        0227938284
+        5437663099
+        8353758745
+        5055817661
+        2085761774
+        7545432474
+        4278868788
+        1181655609
+        1639635633
+        8667397022
+        0227938284
+        5437663099
+        8353758745
+        5055817661
+        2085761774
+        7545432474
+        4278868788
+      id: 1
+    - title: 'Tab 2: Tabgate: Tabgate One'
+      content: >
+        We're charging our battery
+        And now we're full of energy
+        We are the robots
+        We are the robots
+        We are the robots
+        We are the robots
+        We're functioning automatic
+        And we are dancing mechanic
+        We are the robots
+        We are the robots
+        We are the robots
+        We are the robots
+      id: 2
+    - title: 'Tab 3: Tabbing to the Oldies Vol 3'
+      content: >
+        Crack that whip
+        Give the past a slip
+        Step on a crack
+        Break your mama's back
+        When a problem comes along
+        You must whip it
+        Before the cream sits out too long
+        You must whip it
+        When something's going wrong
+        You must whip it
+      id: 3
 ---
 
 Broken clouds thin away. Come again in a rush, they swell purple cliffs black, harry white birds into distances radiant. And soon dampen autumn-sun shadow, clatter ancient rain across a cold river. Below our brushwood gate, at the mill: hulled plain-rice, half-wet and fragrant.
