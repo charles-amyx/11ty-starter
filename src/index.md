@@ -38,30 +38,33 @@ accordions:
   title: Songs With Accordions
   accordion:
     - title: "Neighborhood #2 (Laika) – Arcade Fire"
-      text: > 
-        "Alexander, our older brother
-        Set out for a great adventure
-        He tore our images out of his pictures
-        He scratched our names out of all his letters
+      content: > 
+        "Alexander, our older brother <br>
+        Set out for a great adventure <br>
+        He tore our images out of his pictures <br>
+        He scratched our names out of all his letters <br>
         Our mother shoulda just named you Laika"
+      id: 1
     - title: "The Mariner's Revenge Song - The Decemberists"
-      text: >
-        "We are two mariners
-        Our ships' sole survivors
-        In this belly of a whale
-        Its ribs are ceiling beams
-        Its guts are carpeting
+      content: >
+        "We are two mariners <br>
+        Our ships' sole survivors <br>
+        In this belly of a whale <br>
+        Its ribs are ceiling beams <br>
+        Its guts are carpeting <br>
         I guess we have some time to kill"
+      id: 2
     - title: "Another One Rides the Bus - Weird Al Yankovic"
-      text: >
-        "Another one rides the bus-ah.
-        Another one rides the bus-ah.
-        And another comes on,
-        And another comes on.
-        Another one rides the bus-ah.
-        Hey!
-        He's gonna sit by you.
+      content: >
+        "Another one rides the bus-ah. <br>
+        Another one rides the bus-ah. <br>
+        And another comes on, <br>
+        And another comes on. <br>
+        Another one rides the bus-ah. <br>
+        Hey! <br>
+        He's gonna sit by you. <br>
         Another one rides the bus."
+      id: 3
 ---
 
 Broken clouds thin away. Come again in a rush, they swell purple cliffs black, harry white birds into distances radiant. And soon dampen autumn-sun shadow, clatter ancient rain across a cold river. Below our brushwood gate, at the mill: hulled plain-rice, half-wet and fragrant.

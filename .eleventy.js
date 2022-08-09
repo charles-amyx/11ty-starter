@@ -1,9 +1,6 @@
 const fs = require('fs');
 
 module.exports = function (config) {
-  config.setLiquidOptions({
-    dynamicPartials: true,
-  });
 
   // Static assets to pass through
   config.addPassthroughCopy('./src/images');
@@ -22,9 +19,9 @@ module.exports = function (config) {
       output: '_site',
     },
     passthroughFileCopy: true,
-    templateFormats: ['html', 'md', 'liquid'],
-    htmlTemplateEngine: 'liquid',
-    dataTemplateEngine: 'liquid',
-    markdownTemplateEngine: 'liquid',
+    templateFormats: ['html', 'md', 'njk'],
+    htmlTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk',
+    markdownTemplateEngine: 'njk',
   };
 };

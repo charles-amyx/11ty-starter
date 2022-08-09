@@ -9,9 +9,10 @@ export default defineConfig({
     outDir: '../dist',
     rollupOptions: {
       input: {
-        404: resolve(__dirname, '_site', '404.html'),
+        404: resolve(__dirname, '_site', '404', 'index.html'),
         main: resolve(__dirname, '_site', 'index.html'),
         about: resolve(__dirname, '_site', 'about', 'index.html'),
+        getStarted: resolve(__dirname, '_site', 'get-started', 'index.html'),
       },
     },
     emptyOutDir: true,
