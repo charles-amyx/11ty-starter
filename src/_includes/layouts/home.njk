@@ -30,14 +30,16 @@
           {% endif %}
         {% endif %}
       </article>
-      {% if accordions %}
-        {% include "components/accordion.njk" %}
-      {% endif %}
-      {% if twoCol %}
-        {% include "components/image-content.njk" %}
-      {% endif %}
-      {% if tabs %}
-        {% include "components/tabs.njk" %}
+      {% if title == "Home" %}
+        {% if accordions %}
+          {% include "components/accordion.njk" %}
+        {% endif %}
+        {% if twoCol %}
+          {% include "components/image-content.njk" %}
+        {% endif %}
+        {% if tabs %}
+          {% include "components/tabs.njk" %}
+        {% endif %}
       {% endif %}
     </main>
   {% endblock %}
