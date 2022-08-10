@@ -1,8 +1,11 @@
 import './styles/main.css';
 
 import Alpine from 'alpinejs';
+import intersect from '@alpinejs/intersect';
 
 window.Alpine = Alpine;
+
+Alpine.plugin(intersect);
 Alpine.start();
 
 const env = document.querySelector('body').dataset.env;
