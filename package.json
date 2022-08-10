@@ -78,6 +78,8 @@
         "vite-plugin-pwa": "^0.12.0"
     },
     "dependencies": {
+        "@11ty/eleventy-fetch": "^3.0.0",
+        "@11ty/eleventy-img": "^2.0.1",
         "@alpinejs/persist": "^3.10.3",
         "alpinejs": "^3.0.1",
         "core-js": "^3.24.0",
