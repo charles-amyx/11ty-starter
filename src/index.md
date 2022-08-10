@@ -72,7 +72,7 @@ twoCol:
     Barnacles (balanus glandula) are sticky little crustaceans related to crabs, lobsters, and shrimps. Those aren't dragon claws—they're gooseneck barnacles! These filter feeders are found in the rocky tide pools of Olympic Coast National Marine Sanctuary.
     </p><p>Of the more than 1,400 species of barnacles found in the world’s waterways, the most common ones are called acorn barnacles. As anyone who’s ever maintained a vessel knows, removing barnacles requires some elbow grease (or a pressure washer). That's why some boaters call them by their slang name: "crusty foulers." </p>
   image:
-    path: '/images/dijFqVvkpI-380.webp'
+    path: '/images/dijFqVvkpI-380'
     alt: 'A goose staring at the camera in a menacing manner'
 tabs:
   item:
@@ -101,7 +101,10 @@ tabs:
       id: 1
     - title: 'Tab 2: Tabgate: Tabgate One'
       content: >
-        <img src="/images/stargate.gif" class="block object-cover w-full h-auto mb-4" />
+        <video class="w-full" autoplay loop muted playsinline>
+          <source src="/images/stargate.webm" type="video/webm">
+          <source src="/images/stargate.mp4" type="video/mp4">
+        </video>
         We're charging our battery
         And now we're full of energy
         We are the robots
