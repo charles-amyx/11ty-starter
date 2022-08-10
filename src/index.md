@@ -37,33 +37,33 @@ form:
 accordions:
   title: Songs With Accordions
   accordion:
-    - title: "Neighborhood #2 (Laika) – Arcade Fire"
-      content: > 
-        "Alexander, our older brother <br>
-        Set out for a great adventure <br>
-        He tore our images out of his pictures <br>
-        He scratched our names out of all his letters <br>
-        Our mother shoulda just named you Laika"
-      id: 1
-    - title: "The Mariner's Revenge Song - The Decemberists"
-      content: >
-        "We are two mariners <br>
-        Our ships' sole survivors <br>
-        In this belly of a whale <br>
-        Its ribs are ceiling beams <br>
-        Its guts are carpeting <br>
-        I guess we have some time to kill"
-      id: 2
     - title: "Another One Rides the Bus - Weird Al Yankovic"
-      content: >
-        "Another one rides the bus-ah. <br>
+      content: > 
+        Another one rides the bus-ah. <br>
         Another one rides the bus-ah. <br>
         And another comes on, <br>
         And another comes on. <br>
         Another one rides the bus-ah. <br>
         Hey! <br>
         He's gonna sit by you. <br>
-        Another one rides the bus."
+        Another one rides the bus.
+      id: 1
+    - title: "Neighborhood #2 (Laika) – Arcade Fire"
+      content: >
+        Alexander, our older brother <br>
+        Set out for a great adventure <br>
+        He tore our images out of his pictures <br>
+        He scratched our names out of all his letters <br>
+        Our mother shoulda just named you Laika
+      id: 2
+    - title: "The Mariner's Revenge Song - The Decemberists"
+      content: >
+        We are two mariners <br>
+        Our ships' sole survivors <br>
+        In this belly of a whale <br>
+        Its ribs are ceiling beams <br>
+        Its guts are carpeting <br>
+        I guess we have some time to kill
       id: 3
 twoCol:
   title: "Barnacles"
