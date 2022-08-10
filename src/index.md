@@ -101,7 +101,7 @@ tabs:
       id: 1
     - title: 'Tab 2: Tabgate: Tabgate One'
       content: >
-        <video class="w-full" autoplay loop muted playsinline>
+        <video class="w-full mb-8" autoplay loop muted playsinline>
           <source src="/images/stargate.webm" type="video/webm">
           <source src="/images/stargate.mp4" type="video/mp4">
         </video>
