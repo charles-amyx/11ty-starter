@@ -13,7 +13,7 @@ hero:
     text: 'Get Started'
     link: /get-started/
   button02:
-    text: 'Learn More'
+    text: 'This is a Button'
     link: /about/
   image:
     path: "https://images.unsplash.com/photo-1601758003122-53c40e686a19"
