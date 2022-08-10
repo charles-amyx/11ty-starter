@@ -127,6 +127,9 @@ tabs:
         When something's going wrong
         You must whip it
       id: 3
+quote:
+  content: "The moon and sun are eternal travelers. Even the years wander on. A lifetime adrift in a boat or in old age leading a tired horse into the years, every day is a journey, and the journey itself is home."
+  cite: 'Matsuo Bashō, The Narrow Road to the Deep North and Other Travel Sketches'
 ---
 
 Broken clouds thin away. Come again in a rush, they swell purple cliffs black, harry white birds into distances radiant. And soon dampen autumn-sun shadow, clatter ancient rain across a cold river. Below our brushwood gate, at the mill: hulled plain-rice, half-wet and fragrant.

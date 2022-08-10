@@ -40,6 +40,9 @@
         {% if tabs %}
           {% include "components/tabs.njk" %}
         {% endif %}
+        {% if quote %}
+          {% include "components/quote.njk" %}
+        {% endif %}
       {% endif %}
     </main>
   {% endblock %}
