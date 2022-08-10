@@ -11,7 +11,7 @@
         </nav>
         {% for tab in tabs.item %}
             <div x-show.transition.in.opacity.duration.750ms="selected === 'option-{{ tab.id }}'" class="px-4 py-8">
-                <div class="max-w-2xl mx-auto">{{ tab.content }}</div>
+                <div class="max-w-2xl mx-auto">{{ tab.content | safe }}</div>
             </div>
         {% endfor %}
     </div>

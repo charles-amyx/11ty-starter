@@ -101,6 +101,7 @@ tabs:
       id: 1
     - title: 'Tab 2: Tabgate: Tabgate One'
       content: >
+        <img src="/images/stargate.gif" class="block object-cover w-full h-auto mb-4" />
         We're charging our battery
         And now we're full of energy
         We are the robots
