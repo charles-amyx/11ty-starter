@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html class="antialiased text-gray-900" lang="en">
+<html class="antialiased text-gray-900 scroll-smooth" lang="en">
   <head>
     {% include "partials/site-head.njk" %}
   </head>
-  <body class="min-h-screen bg-white" data-env="{{ node.env }}">
+  <body class="min-h-screen bg-white" data-env="{{ node.env }}" x-data>
     {% include "partials/site-header.njk" %}
 
     {% block content %}{% endblock %}
