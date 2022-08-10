@@ -1,6 +1,6 @@
 <section class="max-w-screen-xl py-8 mx-auto sm:py-20">
     <div class="text-slate-800" x-data="{ selected: 'option-1' }">
-        <nav class="bg-white">
+        <nav class="bg-white" role="navigation" aria-label="tabs">
             <ul class="flex justify-between border-b border-sky-200">
                 {% for tab in tabs.item %}
                     <li class="px-4 py-2 transition border-b-2 border-transparent" x-bind:class="{ 'border-sky-600': selected === 'option-{{ tab.id }}' }">
