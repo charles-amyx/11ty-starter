@@ -4,6 +4,7 @@ const Image = require("@11ty/eleventy-img");
 (async () => {
   let url = "https://images.unsplash.com/photo-1601758003122-53c40e686a19";
   let url2 = "https://images.unsplash.com/photo-1570586790305-4f115cb439c6";
+  let url3 = "https://images.unsplash.com/photo-1659727274203-520e0accbd2d"
   let stats = await Image(url, {
     widths: [1600],
     urlPath: '_site/images',
@@ -14,7 +15,12 @@ const Image = require("@11ty/eleventy-img");
     urlPath: '_site/images',
     outputDir: './src/images'
   });
-  console.log( stats, stats2 );
+  let stats3 = await Image(url3, {
+    widths: [380],
+    urlPath: '_site/images',
+    outputDir: './src/images'
+  });
+  console.log( stats, stats2, stats3 );
 })();
 
 
