@@ -26,16 +26,18 @@
           {% if has_sidebar %}
             {% set infographic = sidebar.infographic %}
             {% set contact = sidebar.contact %}
+            {% set buttons = sidebar.buttons %}
             {% if infographic %}
               <aside class="sticky self-start w-full px-4 transition lg:px-0 top-4 lg:w-1/4 sm:order-last">
                 <div class="w-full p-6 mb-10 text-sky-100 bg-sky-900">
                   <div class="py-8 text-center border-y border-sky-500">
-                    <span class="block text-5xl font-extrabold sm:text-9xl">{{ infographic.value }}</span>
-                    <span class="block text-lg font-bold tracking-widest uppercase">{{ infographic.desc }}</span></div>
+                    <span class="block text-5xl font-extrabold sm:text-[10rem]">{{ infographic.value }}</span>
+                    <span class="block text-lg font-bold tracking-widest uppercase">{{ infographic.desc }}</span>
+                    <span class="block text-sm">{{ infographic.more }}</span></div>
                 </div>
               {% endif %}
               {% if contact %}
-                <div class="w-full">
+                <div class="w-full mb-8">
                   <h2 class="uppercase">Contact</h2>
                   <div class="pb-4 mt-2 border-b border-slate-500">
                     <span class="block text-3xl font-extrabold sm:text-6xl">{{ contact.name }}</span>
@@ -48,8 +50,20 @@
                     </span>
                   </div>
                 </div>
-              </aside>
-            {% endif %}
+              {% endif %}
+              {% if buttons %}
+                <div class="w-full">
+                  <div class="pb-4 mt-2">
+                    <a class="block px-12 py-3 mb-4 text-sm font-bold tracking-wide text-center text-white uppercase transition rounded shadow bg-sky-700 active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring hover:shadow-xl" href="{{ buttons.btn01.link }}">
+                      {{ buttons.btn01.text }}
+                    </a>
+                    <a class="block px-12 py-3 text-sm font-bold tracking-wide text-center uppercase transition bg-white border rounded shadow border-sky-900 text-sky-700 active:bg-rose-500 hover:bg-rose-700 hover:border-transparent hover:text-white focus:outline-none focus:ring hover:shadow-xl" href="{{ buttons.btn02.link }}">
+                      {{ buttons.btn02.text }}
+                    </a>
+                  </div>
+                </div>
+              {% endif %}
+            </aside>
 
           {% endif %}
         </div>

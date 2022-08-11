@@ -14,11 +14,19 @@ sidebar:
   infographic:
     value: 11
     desc: Years
+    more: of amazing Hoobastank tunes, stories, laughs, living, and love.
   contact:
     name: Paige Lloyd
     title: Trapper Keeper
     phone: 407-321-1234
     email: nermal@jhu.edu
+  buttons:
+    btn01:
+      text: Request a Song
+      link: /
+    btn02:
+      text: Live, laugh, love
+      link: /about/
 ---
 
 # Hoobastank
