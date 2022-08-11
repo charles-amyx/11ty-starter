@@ -7,9 +7,9 @@
                 {{ hero.button01.text }}
             </a>
 
-            <a class="block w-full px-12 py-3 text-sm font-bold tracking-wide no-underline uppercase transition rounded shadow bg-sky-900 text-sky-100 sm:w-auto hover:bg-rose-700 active:text-rose-500 focus:outline-none focus:ring hover:shadow-xl" href="{{ hero.button02.link }}">
+            <button class="block w-full px-12 py-3 text-sm font-bold tracking-wide no-underline uppercase transition rounded shadow bg-sky-900 text-sky-100 sm:w-auto hover:bg-rose-700 active:text-rose-500 focus:outline-none focus:ring hover:shadow-xl" @click="$refs.form.scrollIntoView(); $nextTick(() => $refs.input.focus());">
                 {{ hero.button02.text }}
-            </a>
+            </button>
         </div>
     </div>
     <div class="w-full px-8 md:w-1/3">

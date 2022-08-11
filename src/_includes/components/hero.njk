@@ -21,9 +21,9 @@
           {{ hero.button01.text }}
         </a>
 
-        <a class="block w-full px-12 py-3 text-sm font-bold tracking-wide uppercase transition bg-white rounded shadow text-sky-700 sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring hover:shadow-xl" href="{{ hero.button02.link }}">
+        <button class="block w-full px-12 py-3 text-sm font-bold tracking-wide uppercase transition bg-white rounded shadow text-sky-700 sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring hover:shadow-xl" @click="$refs.form.scrollIntoView(); $nextTick(() => $refs.input.focus());">
           {{ hero.button02.text }}
-        </a>
+        </button>
       </div>
     </div>
   </div>

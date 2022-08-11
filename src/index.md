@@ -12,9 +12,10 @@ hero:
   button01:
     text: 'Get Started'
     link: /get-started/
+    form: false
   button02:
     text: 'This is a Button'
-    link: /about/
+    form: true
   image:
     path: "/images/w5uIJlRFPE-1600.webp"
     alt: "Couple on a bed with a dog"
