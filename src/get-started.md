@@ -27,6 +27,11 @@ sidebar:
     btn02:
       text: Live, laugh, love
       link: /about/
+form: 
+  wide: true
+  title: Get More Information
+  intro:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor!!!
+
 ---
 
 # Hoobastank

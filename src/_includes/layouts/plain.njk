@@ -3,7 +3,7 @@
   <head>
     {% include "partials/site-head.njk" %}
   </head>
-  <body class="min-h-screen bg-white">
+  <body class="bg-white">
     {% include "partials/site-header.njk" %}
     {% block content %}
       <main id="main-content" tabindex="-1">
@@ -67,6 +67,9 @@
 
           {% endif %}
         </div>
+        {% if form %}
+          {% include "components/form.njk" %}
+        {% endif %}
       </main>
     {% endblock %}
     {% include "partials/footer.njk" %}
