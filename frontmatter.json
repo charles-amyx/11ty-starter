@@ -48,5 +48,11 @@
   ],
   "frontMatter.framework.id": "11ty",
   "frontMatter.taxonomy.tags": [],
-  "frontMatter.taxonomy.categories": []
+  "frontMatter.taxonomy.categories": [],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "src",
+      "path": "[[workspace]]/src"
+    }
+  ]
 }
