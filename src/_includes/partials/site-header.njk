@@ -1,4 +1,6 @@
-<header class="bg-gray-900">
+<header class="bg-gray-900" x-data="{ isOpen: false }"
+      @keydown.escape="isOpen = false"
+      :class="{ 'shadow-lg bg-indigo-900' : isOpen , 'bg-gray-800' : !isOpen}">
     <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
             <div class="md:flex md:items-center md:gap-12">
@@ -7,7 +9,7 @@
           āxōlōtl
         </a>
             </div>
-            <div class="hidden md:block">
+            <div class="hidden md:block" :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" @click.away="isOpen = false" x-show.transition="true">
                 <nav role="navigation" aria-label="main" aria-labelledby="header-navigation">
                     <h2 class="sr-only" id="header-navigation">Header navigation</h2>
                     <ul class="flex items-center gap-16 text-sm">
@@ -44,9 +46,24 @@
                     </div>
                 </div>
                 <div class="block md:hidden">
-                    <button class="p-2 text-white transition bg-gray-800 rounded hover:text-white/75">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewbox="0 0 24 24" stroke="currentcolor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m4 6h16m4 12h16m4 18h16"/>
+                    <button @click="isOpen = !isOpen" type="button" class="p-2 transition rounded bg-gray-50" :class="{ 'transition transform-180': isOpen }">
+                        <span class="sr-only">Mobile Menu</span>
+                        <svg
+                            class="w-6 h-6 fill-current"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            >
+                            <path
+                                x-show="isOpen"
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
+/>
+                            <path
+                                x-show="!isOpen"
+                                fill-rule="evenodd"
+                                d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+/>
                         </svg>
                     </button>
                 </div>
