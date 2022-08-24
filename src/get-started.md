@@ -56,9 +56,10 @@ This site is deployed by, and hosted by [Netlify](https://www.netlify.com/).
   </a>
 </p>
 
+----
 ## Hoobastank
 
-An American rock band formed in 1994 in Agoura Hills, California, by lead vocalist Doug Robb, guitarist Dan Estrin, drummer Chris Hesse, and original bassist Markku Lappalainen.
+<p class="first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-sky-700 first-letter:mr-3 first-letter:float-left">An American rock band formed in 1994 in Agoura Hills, California, by lead vocalist Doug Robb, guitarist Dan Estrin, drummer Chris Hesse, and original bassist Markku Lappalainen.</p>
 
 Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.
 
