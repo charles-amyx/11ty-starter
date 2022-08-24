@@ -16,13 +16,13 @@
         {% endif %}
 
         <section>
-          <h1 class="text-3xl font-bold leading-tight text-gray-900">
+          <h1 class="text-3xl font-bold leading-tight text-slate-900">
             {{ intro.title }}
           </h1>
-          <div class="py-8 leading-8 text-gray-600">
+          <div class="py-8 leading-8 text-slate-800">
             <p class="text-xl">{{ intro.desc }}</p>
           </div>
-          <div class="prose prose-lg text-gray-500 prose-gray">{{ content | safe }}</div>
+          <div class="prose prose-lg text-slate-600 prose-gray">{{ content | safe }}</div>
         </section>
         {% if title == "Home" %}
           {% if form %}

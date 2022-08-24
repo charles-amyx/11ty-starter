@@ -8,7 +8,7 @@ meta:
 intro:
   title: 'Accessibility'
   desc:
-    'Clone and deploy your own <span class="font-semibold text-gray-100">11st
+    'Clone and deploy your own <span class="font-semibold text-slate-100">11st
     Starter-Kit</span> starter template.'
 ---
 

@@ -1,79 +1,79 @@
 <!DOCTYPE html>
-<html class="antialiased leading-tight text-gray-900" lang="en">
-  <head>
-    {% include "partials/site-head.njk" %}
-  </head>
-  <body class="bg-white">
-    {% include "partials/site-header.njk" %}
-    {% block content %}
-      <main id="main-content" tabindex="-1">
-        <section class="py-8 sm:py-16 bg-slate-800">
-          <div class="max-w-screen-xl px-4 mx-auto">
-            <h1 class="text-3xl font-bold text-white sm:text-5xl">
-              {{ intro.title | safe }}
-            </h1>
-            <div class="mt-8 leading-8 text-gray-600">
-              <p class="mb-0 text-2xl text-slate-100">{{ intro.desc | safe }}</p>
-            </div>
-          </div>
-        </section>
-        <div {% if has_sidebar %}
+<html class="antialiased leading-tight text-slate-900" lang="en">
+    <head>
+        {% include "partials/site-head.njk" %}
+    </head>
+    <body class="bg-white">
+        {% include "partials/site-header.njk" %}
+        {% block content %}
+            <main id="main-content" tabindex="-1">
+                <section class="py-8 sm:py-16 bg-slate-800">
+                    <div class="max-w-screen-xl px-4 mx-auto">
+                        <h1 class="text-3xl font-bold text-white sm:text-5xl">
+                            {{ intro.title | safe }}
+                        </h1>
+                        <div class="mt-8 leading-8 text-slate-600">
+                            <p class="mb-0 text-2xl text-slate-100">{{ intro.desc | safe }}</p>
+                        </div>
+                    </div>
+                </section>
+                <div {% if has_sidebar %}
         class="relative flex flex-col justify-between max-w-screen-xl px-4 py-8 mx-auto sm:py-20 sm:flex-row"
           {% else %}
           class="max-w-screen-xl px-4 py-8 mx-auto sm:py-20"
         {% endif %} >
-          <div class="prose prose-lg text-gray-500 prose-gray">{{ content | safe }}</div>
-          {% if has_sidebar %}
-            {% set infographic = sidebar.infographic %}
-            {% set contact = sidebar.contact %}
-            {% set buttons = sidebar.buttons %}
-            {% if infographic %}
-              <aside class="sticky self-start w-full px-4 transition lg:px-0 top-4 lg:w-1/4 sm:order-last">
-                <div class="w-full p-6 mb-10 text-sky-100 bg-sky-900">
-                  <div class="py-8 text-center border-y border-sky-500">
-                    <span class="block text-5xl font-extrabold sm:text-[10rem]">{{ infographic.value }}</span>
-                    <span class="block text-lg font-bold tracking-widest uppercase">{{ infographic.desc }}</span>
-                    <span class="block text-sm">{{ infographic.more }}</span></div>
-                </div>
-              {% endif %}
-              {% if contact %}
-                <div class="w-full mb-8">
-                  <h2 class="uppercase">Contact</h2>
-                  <div class="pb-4 mt-2 border-b border-slate-500">
-                    <span class="block text-3xl font-extrabold sm:text-6xl">{{ contact.name }}</span>
-                    <span class="block mb-4 text-lg font-medium tracking-wide">{{ contact.title }}</span>
-                    <span class="block text-lg font-normal">
-                      <a class="transition hover:text-sky-800 focus:text-sky-800 hover:underline focus:underline" href="tel:{{ contact.phone }}">{{ contact.phone }}</a>
-                    </span>
-                    <span class="block text-lg font-normal">
-                      <a class="transition hover:text-sky-800 focus:text-sky-800 hover:underline focus:underline" href="mailto:{{ contact.email }}">{{ contact.email }}</a>
-                    </span>
-                  </div>
-                </div>
-              {% endif %}
-              {% if buttons %}
-                <div class="w-full">
-                  <div class="pb-4 mt-2">
-                    <a class="block px-12 py-3 mb-4 text-sm font-bold tracking-wide text-center text-white uppercase transition rounded shadow bg-sky-700 active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring hover:shadow-2xl" href="{{ buttons.btn01.link }}">
-                      {{ buttons.btn01.text }}
-                    </a>
-                    <a class="block px-12 py-3 text-sm font-bold tracking-wide text-center uppercase transition bg-white border rounded shadow border-sky-900 text-sky-700 active:bg-rose-500 hover:bg-rose-700 hover:border-transparent hover:text-white focus:outline-none focus:ring hover:shadow-2xl" href="{{ buttons.btn02.link }}">
-                      {{ buttons.btn02.text }}
-                    </a>
-                  </div>
-                </div>
-              {% endif %}
-            </aside>
+                    <div class="prose prose-lg text-slate-500 prose-gray">{{ content | safe }}</div>
+                    {% if has_sidebar %}
+                        {% set infographic = sidebar.infographic %}
+                        {% set contact = sidebar.contact %}
+                        {% set buttons = sidebar.buttons %}
+                        {% if infographic %}
+                            <aside class="sticky self-start w-full px-4 transition lg:px-0 top-4 lg:w-1/4 sm:order-last">
+                                <div class="w-full p-6 mb-10 text-sky-100 bg-sky-900">
+                                    <div class="py-8 text-center border-y border-sky-500">
+                                        <span class="block text-5xl font-extrabold sm:text-[10rem]">{{ infographic.value }}</span>
+                                        <span class="block text-lg font-bold tracking-widest uppercase">{{ infographic.desc }}</span>
+                                        <span class="block text-sm">{{ infographic.more }}</span></div>
+                                </div>
+                            {% endif %}
+                            {% if contact %}
+                                <div class="w-full mb-8">
+                                    <h2 class="uppercase">Contact</h2>
+                                    <div class="pb-4 mt-2 border-b border-slate-500">
+                                        <span class="block text-3xl font-extrabold sm:text-6xl">{{ contact.name }}</span>
+                                        <span class="block mb-4 text-lg font-medium tracking-wide">{{ contact.title }}</span>
+                                        <span class="block text-lg font-normal">
+                                            <a class="transition hover:text-sky-800 focus:text-sky-800 hover:underline focus:underline" href="tel:{{ contact.phone }}">{{ contact.phone }}</a>
+                                        </span>
+                                        <span class="block text-lg font-normal">
+                                            <a class="transition hover:text-sky-800 focus:text-sky-800 hover:underline focus:underline" href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            {% endif %}
+                            {% if buttons %}
+                                <div class="w-full">
+                                    <div class="pb-4 mt-2">
+                                        <a class="block px-12 py-3 mb-4 text-sm font-bold tracking-wide text-center text-white uppercase transition rounded shadow bg-sky-700 active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring hover:shadow-2xl" href="{{ buttons.btn01.link }}">
+                                            {{ buttons.btn01.text }}
+                                        </a>
+                                        <a class="block px-12 py-3 text-sm font-bold tracking-wide text-center uppercase transition bg-white border rounded shadow border-sky-900 text-sky-700 active:bg-rose-500 hover:bg-rose-700 hover:border-transparent hover:text-white focus:outline-none focus:ring hover:shadow-2xl" href="{{ buttons.btn02.link }}">
+                                            {{ buttons.btn02.text }}
+                                        </a>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        </aside>
 
-          {% endif %}
-        </div>
-        {% if form %}
-          {% include "components/form.njk" %}
-        {% endif %}
-      </main>
-    {% endblock %}
-    {% include "partials/footer.njk" %}
+                    {% endif %}
+                </div>
+                {% if form %}
+                    {% include "components/form.njk" %}
+                {% endif %}
+            </main>
+        {% endblock %}
+        {% include "partials/footer.njk" %}
 
-    <script type="module" src="/main.js"></script>
-  </body>
+        <script type="module" src="/main.js"></script>
+    </body>
 </html>
