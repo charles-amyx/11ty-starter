@@ -12,6 +12,7 @@ const colors = {
   'lg-text-orange': '#D47500',
   'graphic-red': '#EF4035',
   'text-red': '#DF1E12',
+  white: '#f2f2f2',
   navy: '#073949',
 };
 
