@@ -3,11 +3,11 @@
         <h2 class="mt-0 text-3xl">{{ twoCol.title }}</h2>
         {{ twoCol.content | safe}}
         <div class="flex flex-wrap gap-4 mt-8 text-center">
-            <a class="block w-full px-12 py-3 text-sm font-bold tracking-wide text-white no-underline uppercase transition rounded shadow bg-sky-700 sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring hover:shadow-xl" href="{{ hero.button01.link }}">
+            <a class="block w-full px-12 py-3 text-sm font-bold tracking-wide text-white no-underline uppercase transition rounded shadow bg-sky-700 sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring hover:shadow-2xl" href="{{ hero.button01.link }}">
                 {{ hero.button01.text }}
             </a>
 
-            <button class="block w-full px-12 py-3 text-sm font-bold tracking-wide no-underline uppercase transition rounded shadow bg-sky-900 text-sky-100 sm:w-auto hover:bg-rose-700 active:text-rose-500 focus:outline-none focus:ring hover:shadow-xl" @click="$refs.form.scrollIntoView(); $nextTick(() => $refs.input.focus());">
+            <button class="block w-full px-12 py-3 text-sm font-bold tracking-wide no-underline uppercase transition rounded shadow bg-sky-900 text-sky-100 sm:w-auto hover:bg-rose-700 active:text-rose-500 focus:outline-none focus:ring hover:shadow-2xl" @click="$refs.form.scrollIntoView(); $nextTick(() => $refs.input.focus());">
                 {{ hero.button02.text }}
             </button>
         </div>
