@@ -60,8 +60,6 @@ Automated tools can't detect every accessibility issue, but they're a great plac
 
 -   [WebAIM color contrast checker](https://webaim.org/resources/contrastchecker/) (accounts for differences in font size.)
 
--   [University of Michigan Brand color palette contrast chart](https://docs.google.com/spreadsheets/d/15YoKPYgPc2BUb6cpQztvwXRBsygpX4ikffnYB1UvhY4/edit?usp=sharing)
-
 ### Resources
 
 -   [Web Accessibility Perspective Videos](https://www.w3.org/WAI/perspective-videos/)
