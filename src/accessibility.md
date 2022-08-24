@@ -12,8 +12,6 @@ intro:
     Starter-Kit</span> starter template.'
 ---
 
-# Accessibility
-
 ## Let's do the right thing!
 
 Making sure all users can access the information and services we provide is the right thing to do, as well as our legal responsibility under the Americans with Disabilities Act and Section 508 of the Rehabilitation Act of 1973.
