@@ -26,7 +26,7 @@ sidebar:
       link: /
     btn02:
       text: Live, laugh, love
-      link: /about/
+      link: /accessibility/
 form: 
   wide: true
   title: Get More Information
@@ -34,7 +34,32 @@ form:
 
 ---
 
-# Hoobastank
+# Site Information
+## Hosting
+
+This site is deployed by, and hosted by [Netlify](https://www.netlify.com/). 
+
+## Ecosystem
+
+[Eleventy](https://www.11ty.dev/) - [Vite](https://vitejs.dev/) -
+[Tailwind CSS](https://tailwindcss.com/) - [Alpine.js](https://github.com/alpinejs/alpine/)
+
+## Hosting
+
+This site is deployed by, and hosted by [Netlify](https://www.netlify.com/). 
+
+<p class="flex items-center m-0">
+  Latest deploy status:
+  <a href="https://app.netlify.com/sites/hilarious-lily-fe1a3b/deploys" class="ml-2">
+    <img
+      src="https://api.netlify.com/api/v1/badges/3977c82e-5762-4615-b921-72660a1d9945/deploy-status"
+      style="margin: 0"
+      alt="Netlify Status"
+    />
+  </a>
+</p>
+
+## Hoobastank
 
 An American rock band formed in 1994 in Agoura Hills, California, by lead vocalist Doug Robb, guitarist Dan Estrin, drummer Chris Hesse, and original bassist Markku Lappalainen.
 
