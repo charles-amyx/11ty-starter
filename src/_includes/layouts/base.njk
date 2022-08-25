@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html class="antialiased text-slate-900 scroll-smooth" lang="en" x-data="{ shown: false }" x-intersect="shown = true">
-    <head>
-        {% include "partials/site-head.njk" %}
-    </head>
-    <body class="min-h-screen bg-white" data-env="{{ node.env }}" x-data>
-        <div class="skipper">
-            <a class="skip-link" href="#main-content">Skip to main content</a>
-        </div>
-        {% include "partials/site-header.njk" %}
+  <head>
+    {% include "partials/site-head.njk" %}
+  </head>
+  <body class="min-h-screen bg-white" data-env="{{ node.env }}" x-data="{ isMobileNavOpen: false }" :class="{ 'overflow-hidden': isMobileNavOpen }">
+    <div class="skipper">
+      <a class="skip-link" href="#main-content">Skip to main content</a>
+    </div>
+    {% include "partials/site-header.njk" %}
 
-        {% block content %}{% endblock %}
+    {% block content %}{% endblock %}
 
-        {% include "partials/footer.njk" %}
+    {% include "partials/footer.njk" %}
 
-        <script type="module" src="/main.js"></script>
-    </body>
+    <script type="module" src="/main.js"></script>
+  </body>
 </html>

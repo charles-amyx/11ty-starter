@@ -9,10 +9,10 @@
           āxōlōtl
         </a>
             </div>
-            <div class="hidden md:block" :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" @click.away="isOpen = false" x-show.transition="true">
+            <div class="hidden md:block" :class="{ 'block shadow-3xl': isMobileNavOpen, 'hidden': !isMobileNavOpen }" @click.away="isMobileNavOpen = false" x-show.transition="true">
                 <nav role="navigation" aria-label="main" aria-labelledby="header-navigation">
                     <h2 class="sr-only" id="header-navigation">Header navigation</h2>
-                    <ul class="flex items-center gap-16 text-sm">
+                    <ul class="items-center gap-16 text-sm md:flex">
                         {% for item in navigation.items %}
                             {% if item.url == page.url %}
                                 {%
@@ -46,7 +46,9 @@
                     </div>
                 </div>
                 <div class="block md:hidden">
-                    <button @click="isOpen = !isOpen" type="button" class="p-2 transition rounded bg-gray-50" :class="{ 'transition transform-180': isOpen }">
+                    <button @click="isMobileNavOpen = !isMobileNavOpen" type="button" class="p-2 transition rounded bg-gray-50" :class="{ 'transition transform-180': isMobileNavOpen }" x-bind:aria-label="isMobileNavOpen ? 'Close main menu' : 'Main menu'"
+              aria-label="Main menu"
+              x-bind:aria-expanded="isMobileNavOpen">
                         <span class="sr-only">Mobile Menu</span>
                         <svg
                             class="w-6 h-6 fill-current"
@@ -54,13 +56,13 @@
                             viewBox="0 0 24 24"
                             >
                             <path
-                                x-show="isOpen"
+                                x-show="isMobileNavOpen"
                                 fill-rule="evenodd"
                                 clip-rule="evenodd"
                                 d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
 />
                             <path
-                                x-show="!isOpen"
+                                x-show="!isMobileNavOpen"
                                 fill-rule="evenodd"
                                 d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
 />
