@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html class="antialiased leading-tight text-slate-900" lang="en" x-data="{ shown: false }" x-intersect="shown = true">
+<html class="antialiased leading-tight text-slate-900" lang="en" >
   <head>
     {% include "partials/site-head.njk" %}
   </head>
   <body class="bg-white" x-data="{ isMobileNavOpen: false }" :class="{ 'overflow-hidden': isMobileNavOpen }">
     {% include "partials/site-header.njk" %}
     {% block content %}
-      <main id="main-content" tabindex="-1">
+      <main id="main-content" tabindex="-1" x-data="{ shown: false }" x-intersect="shown = true">
         <section class="py-8 sm:py-16 bg-slate-800">
           <div class="max-w-screen-xl px-4 mx-auto">
             <h1 class="text-3xl font-bold text-white sm:text-5xl">

@@ -1,6 +1,6 @@
 {% extends "layouts/base.njk" %}
 {% block content %}
-  <main id="main-content" tabindex="-1">
+  <main id="main-content" tabindex="-1" x-data="{ shown: false }" x-intersect="shown = true">
     {% include "components/hero.njk" %}
     {% if title == "Home" %}
       {% if benefits %}
