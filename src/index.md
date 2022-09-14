@@ -100,7 +100,7 @@ tabs:
         7545432474
         4278868788
       id: 1
-    - title: 'Tab 2: Tabgate: Tabgate One'
+    - title: 'Tab 2: Tabgate: TG-1'
       content: >
         <video class="w-full mb-8" autoplay loop muted playsinline>
           <source src="/images/stargate.webm" type="video/webm">

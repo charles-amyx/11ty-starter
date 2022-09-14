@@ -46,7 +46,7 @@
               class="step-1 form-step"
               x-show="showForm($refs.step1)"
             >
-                        <h2 class="mb-6 text-lg font-bold">When</h2>
+                        <h2 class="mb-6 text-lg font-bold">Have a party!</h2>
                         <label class="block">
                             <span class="text-slate-700">When party?</span>
                             <input type="date" class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0">
@@ -59,18 +59,22 @@
               class="step-2 form-step"
               x-show="showForm($refs.step2)"
             >
-                        <h2 class="mb-6 text-lg font-bold">What</h2>
+                        <h2 class="mb-6 text-lg font-bold">It is fun!</h2>
                         <label class="block">
                             <span class="text-slate-700">What is party?</span>
                             <select name="parties" class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0">
-                                <option>Corporate event</option>
-                                <option>Wedding</option>
-                                <option>Birthday</option>
-                                <option>Jamboree</option>
+                                <option>Birthday party</option>
+                                <option>Boring corporate party</option>
+                                <option>Wedding party</option>
+                                <option>Jamboree party</option>
                                 <option>Ren Fest</option>
                                 <option>Fete</option>
-                                <option>Garden Party</option>
-                                <option>🎉🎉🎉🎉🎉🎉🎉</option>
+                                <option>Garden party</option>
+                                <option>Canning party</option>
+                                <option>Airshow party</option>
+                                <option>Haircut party</option>
+                                <option>party party party party party</option>
+                                <option> 🎉🎉🎉🎉🎉🎉🎉</option>
                             </select>
                         </label>
                     </div>
@@ -81,14 +85,14 @@
               class="step-3 form-step"
               x-show="showForm($refs.step3)"
             >
-                        <h2 class="mb-6 text-lg font-bold">Who is party master?</h2>
-                        <label class="block">
+                        <h2 class="mb-6 text-lg font-bold">Who dares join my party?</h2>
+                        <label class="block mb-6">
                             <span class="text-slate-700">Full name</span>
-                            <input x-ref="input"  type="text" class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0" placeholder="">
+                            <input x-ref="input"  type="text" class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0" placeholder="e.g., PartyMaster3000 the Third">
                         </label>
                         <label class="block">
                             <span class="text-slate-700">Email address</span>
-                            <input type="email" class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0" placeholder="john@example.com">
+                            <input type="email" class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0" placeholder="e.g., yams@yesmaam.com">
                         </label>
                     </div>
 
@@ -106,6 +110,7 @@
                         </span>
                     </button>
                 </div>
+                <div x-show="showForm($refs.step3)" class="mt-8 text-xs italic text-slate-600">This form doesn't actually do anything. No parties for you!</div>
 
             </div>
         </div>
