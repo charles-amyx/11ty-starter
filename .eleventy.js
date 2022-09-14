@@ -20,7 +20,7 @@ const Image = require("@11ty/eleventy-img");
     urlPath: '_site/images',
     outputDir: './src/images'
   });
-  console.log( stats, stats2, stats3 );
+  // console.log( stats, stats2, stats3 );
 })();
 
 
