@@ -37,6 +37,7 @@ One size does not fit all. Make sure your alt text provides context for the imag
 ### Screen Readers
 
 -   [VoiceOver cheat sheet](http://pauljadam.com/demos/iosvocheatsheet.html) (iOS)
+    -   [VoiceOver Testing the Easy Way](https://cloudfour.com/thinks/mac-voiceover-testing-the-simple-way/)
 
 -   [TalkBack cheat sheet](http://pauljadam.com/demos/talkbackcheatsheet.html) (Android)
 
