@@ -8,8 +8,7 @@ meta:
 intro:
   title: 'Accessibility'
   desc:
-    'Clone and deploy your own <span class="font-semibold text-slate-100">11st
-    Starter-Kit</span> starter template.'
+    'You, me, everybody'
 ---
 
 ## Let's do the right thing!
