@@ -1,5 +1,7 @@
 const fs = require('fs');
 const Image = require("@11ty/eleventy-img");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+
 
 (async () => {
   let url = "https://images.unsplash.com/photo-1601758003122-53c40e686a19";
@@ -32,6 +34,7 @@ module.exports = function (config) {
   config.addPassthroughCopy('./src/public');
   config.addPassthroughCopy('./src/styles');
   config.addPassthroughCopy('./src/main.js');
+  config.addPlugin(eleventyNavigationPlugin)
 
   // Get the current year - super useful for copyright dates.
   // Usage: {% year %}

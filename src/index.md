@@ -102,35 +102,35 @@ tabs:
       id: 1
     - title: 'Tab 2: Tabgate: TG-1'
       content: >
-        <video class="w-full mb-8" autoplay loop muted playsinline>
+        We're charging our battery.
+        And now we're full of energy.
+        We are the robots.
+        We are the robots.
+        We are the robots.
+        We are the robots.
+        We're functioning automatic.
+        And we are dancing mechanic.
+        We are the robots.
+        We are the robots.
+        We are the robots.
+        We are the robots.
+        <video class="w-full mt-8" autoplay loop muted playsinline>
           <source src="/images/stargate.webm" type="video/webm">
           <source src="/images/stargate.mp4" type="video/mp4">
         </video>
-        We're charging our battery
-        And now we're full of energy
-        We are the robots
-        We are the robots
-        We are the robots
-        We are the robots
-        We're functioning automatic
-        And we are dancing mechanic
-        We are the robots
-        We are the robots
-        We are the robots
-        We are the robots
       id: 2
     - title: 'Tab 3: Tabbing to the Oldies Vol 3'
       content: >
-        Crack that whip
-        Give the past a slip
-        Step on a crack
-        Break your mama's back
-        When a problem comes along
-        You must whip it
-        Before the cream sits out too long
-        You must whip it
-        When something's going wrong
-        You must whip it
+        Crack that whip,
+        Give the past a slip,
+        Step on a crack,
+        Break your mama's back,
+        When a problem comes along,
+        You must whip it,
+        Before the cream sits out too long,
+        You must whip it,
+        When something's going wrong,
+        You must whip it,
       id: 3
 quote:
   content: "The moon and sun are eternal travelers. Even the years wander on. A lifetime adrift in a boat or in old age leading a tired horse into the years, every day is a journey, and the journey itself is home."
