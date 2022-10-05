@@ -1,41 +1,43 @@
 <section class="p-8 border border-gray-200 sm:p-16 bg-slate-100" x-ref="form" x-show="shown">
+    <form >
 
-    {% if form.wide %}
-        <h2 class="max-w-screen-xl px-4 mx-auto text-2xl font-bold">{{ form.title }}</h2>
-        <p class="max-w-screen-xl px-4 mx-auto mt-4 mb-8">{{ form.intro }}</p>
-        <div class="max-w-screen-xl px-4 mx-auto">
-        {% else %}
-            <h2 class="text-2xl font-bold">{{ form.title }}</h2>
-            <p class="mt-4">{{ form.intro }}</p>
-            <div class="max-w-md mt-8">
-            {% endif %}
-            <div class="grid grid-cols-1 gap-6 mb-8">
-                <label class="block">
-                    <span class="text-gray-700">Full name</span>
-                    <input x-ref="input"  type="text" class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0" placeholder="">
-                </label>
-                <label class="block">
-                    <span class="text-gray-700">Email address</span>
-                    <input type="email" class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0" placeholder="john@example.com">
-                </label>
-                <label class="block">
-                    <span class="text-gray-700">When is your event?</span>
-                    <input type="date" class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0">
-                </label>
-                <label class="block">
-                    <span class="text-gray-700">What type of event is it?</span>
-                    <select class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0">
-                        <option>Corporate event</option>
-                        <option>Wedding</option>
-                        <option>Birthday</option>
-                        <option>Other</option>
-                    </select>
-                </label>
-                <label class="block">
-                    <span class="text-gray-700">Additional details</span>
-                    <textarea class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0" rows="3"></textarea>
-                </label>
+        {% if form.wide %}
+            <h2 class="max-w-screen-xl px-4 mx-auto text-2xl font-bold">{{ form.title }}</h2>
+            <p class="max-w-screen-xl px-4 mx-auto mt-4 mb-8">{{ form.intro }}</p>
+            <div class="max-w-screen-xl px-4 mx-auto">
+            {% else %}
+                <h2 class="text-2xl font-bold">{{ form.title }}</h2>
+                <p class="mt-4">{{ form.intro }}</p>
+                <div class="max-w-md mt-8">
+                {% endif %}
+                <div class="mb-8 space-y-6">
+                    <label class="block">
+                        <span class="text-slate-700">Full name</span>
+                        <input x-ref="input"  type="text" class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0" placeholder="">
+                    </label>
+                    <label class="block">
+                        <span class="text-slate-700">Email address</span>
+                        <input type="email" class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0" placeholder="john@example.com">
+                    </label>
+                    <label class="block">
+                        <span class="text-slate-700">When is your event?</span>
+                        <input type="date" class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0">
+                    </label>
+                    <label class="block">
+                        <span class="text-slate-700">What type of event is it?</span>
+                        <select class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0">
+                            <option>Corporate event</option>
+                            <option>Wedding</option>
+                            <option>Birthday</option>
+                            <option>Other</option>
+                        </select>
+                    </label>
+                    <label class="block">
+                        <span class="text-slate-700">Additional details</span>
+                        <textarea class="block w-full mt-1 bg-white border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0" rows="3"></textarea>
+                    </label>
+                </div>
+                <button class="block w-full px-12 py-3 text-sm font-bold tracking-wide text-white uppercase transition rounded shadow bg-sky-700 sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring hover:shadow-2xl">Do it</button>
             </div>
-            <button class="block w-full px-12 py-3 text-sm font-bold tracking-wide text-white uppercase transition rounded shadow bg-sky-700 sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring hover:shadow-2xl">Do it</button>
-        </div>
+        </form>
     </section>

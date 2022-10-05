@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html class="antialiased text-gray-900 scroll-smooth" lang="en" x-data="{ shown: false }" x-intersect="shown = true">
+<html class="antialiased text-slate-900 scroll-smooth" lang="en" >
   <head>
     {% include "partials/site-head.njk" %}
   </head>
-  <body class="min-h-screen bg-white" data-env="{{ node.env }}" x-data>
+  <body class="relative min-h-screen bg-white" data-env="{{ node.env }}" x-data="{ isMobileNavOpen: false }" :class="{ 'overflow-hidden': isMobileNavOpen }">
     <div class="skipper">
       <a class="skip-link" href="#main-content">Skip to main content</a>
     </div>

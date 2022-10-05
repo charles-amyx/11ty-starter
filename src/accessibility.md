@@ -8,11 +8,8 @@ meta:
 intro:
   title: 'Accessibility'
   desc:
-    'Clone and deploy your own <span class="font-semibold text-gray-100">11st
-    Starter-Kit</span> starter template.'
+    'You, me, everybody'
 ---
-
-# Accessibility
 
 ## Let's do the right thing!
 
@@ -39,6 +36,7 @@ One size does not fit all. Make sure your alt text provides context for the imag
 ### Screen Readers
 
 -   [VoiceOver cheat sheet](http://pauljadam.com/demos/iosvocheatsheet.html) (iOS)
+    -   [VoiceOver Testing the Easy Way](https://cloudfour.com/thinks/mac-voiceover-testing-the-simple-way/)
 
 -   [TalkBack cheat sheet](http://pauljadam.com/demos/talkbackcheatsheet.html) (Android)
 
@@ -59,8 +57,6 @@ Automated tools can't detect every accessibility issue, but they're a great plac
 -   [Color Safe](http://colorsafe.co/) (great for selecting accessible color palettes)
 
 -   [WebAIM color contrast checker](https://webaim.org/resources/contrastchecker/) (accounts for differences in font size.)
-
--   [University of Michigan Brand color palette contrast chart](https://docs.google.com/spreadsheets/d/15YoKPYgPc2BUb6cpQztvwXRBsygpX4ikffnYB1UvhY4/edit?usp=sharing)
 
 ### Resources
 

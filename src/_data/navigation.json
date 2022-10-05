@@ -10,7 +10,22 @@
     },
     {
       "text": "Accessibility",
-      "url": "/accessibility/"
+      "key": "Accessibility",
+      "url": "/accessibility/",
+      "children": [
+        {
+          "key": "Images",
+          "parentKey": "Accessibility",
+          "url": "/images/",
+          "title": "Images"
+        },
+        {
+          "key": "Text Content",
+          "parentKey": "Accessibility",
+          "url": "/text-content/",
+          "title": "Text Content"
+        }
+      ]
     }
   ]
 }

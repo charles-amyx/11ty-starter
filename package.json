@@ -9,10 +9,10 @@
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "git@github.com:fillthisout/11st-starter-kit.git"
+        "url": "git@github.com:charles-amyx/11ty-starter.git"
     },
     "private": true,
-    "homepage": "https://11st-starter-kit.netlify.app",
+    "homepage": "https://hilarious-lily-fe1a3b.netlify.app",
     "lint-staged": {
         "*.html": "prettier --write",
         "*.css": "stylelint --cache --fix",
@@ -43,6 +43,7 @@
     },
     "devDependencies": {
         "@11ty/eleventy": "^1.0.2",
+        "@11ty/eleventy-navigation": "^0.3.5",
         "@babel/cli": "^7.18.10",
         "@babel/core": "^7.16.5",
         "@babel/eslint-parser": "^7.18.2",

@@ -1,4 +1,4 @@
-# 📦 11ty-Starter-Kit
+# 📦 11ty-Starter-Kit (TEAStack!)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3977c82e-5762-4615-b921-72660a1d9945/deploy-status)](https://app.netlify.com/sites/hilarious-lily-fe1a3b/deploys)
