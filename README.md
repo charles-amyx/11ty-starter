@@ -42,24 +42,7 @@ Open http://localhost:5000/ to view it in your browser.
 
 Your code is now ready to be deployed!
 
-## Netlify
 
-To get your own instance of this 11st-Starter-Kit cloned and deploying to
-Netlify very quickly, just click the button below and follow the instructions.
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" />](https://app.netlify.com/start/deploy?repository=https://github.com/charles-amyx/11ty-starter)
-
-### Add some Netlify helpers
-
-Netlify Dev adds the ability to use Netlify redirects, proxies, and serverless functions.
-
-```bash
-# install the Netlify CLI in order to get netlify dev
-npm install -g netlify-cli
-
-# run a local server with some added Netlify sugar
-netlify dev
-```
 
 ## Code Quality
 
