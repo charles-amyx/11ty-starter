@@ -1,4 +1,4 @@
-# 📦 11ty-Starter-Kit (TEAStack!)
+# 📦 āxōlōtl (a TEAStack)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3977c82e-5762-4615-b921-72660a1d9945/deploy-status)](https://app.netlify.com/sites/hilarious-lily-fe1a3b/deploys)
@@ -50,7 +50,7 @@ By default `CSS` and `JavaScript` is getting linted with every commit.
 
 You can lint manually by running `npm run lint` and if errors occur you can try to fix them automatically by running `npm run format`.
 
-With every pull request it is checked if the code can be build without errors and afterwards `CSS` and `JavaScript` is getting linted.
+With every pull request, the code is checked to if the site can be built without errors and afterwards `CSS` and `JavaScript` is getting linted.
 
 Additionally each page is audited by Lighthouse which can take some time. You can find the performance budget for this audit in the file `./budget.json`.
 
