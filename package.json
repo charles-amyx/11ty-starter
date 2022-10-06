@@ -14,7 +14,6 @@
     "private": true,
     "homepage": "https://hilarious-lily-fe1a3b.netlify.app",
     "lint-staged": {
-        "*.html": "prettier --write",
         "*.css": "stylelint --cache --fix",
         "*.js": "eslint --cache --fix"
     },
@@ -31,11 +30,9 @@
         "build:eleventy": "npx @11ty/eleventy",
         "build:vite": "npx vite build",
         "lint": "run-s lint:*",
-        "lint:html": "npx prettier --check \"src/**/*.html\"",
         "lint:stylelint": "npx stylelint \"src/**/*.css\"",
         "lint:eslint": "npx eslint --ext .js src/",
         "format": "run-s format:*",
-        "format:html": "npx prettier --write \"src/**/*.html\"",
         "format:stylelint": "npx stylelint \"src/**/*.css\" --fix",
         "format:eslint": "npx eslint --ext .js src/ --fix",
         "validate": "run-s build lint",
