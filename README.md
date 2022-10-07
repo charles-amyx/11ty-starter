@@ -1,4 +1,4 @@
-# 📦 11ty-Starter-Kit (TEAStack!)
+# 📦 āxōlōtl (a TEAStack)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3977c82e-5762-4615-b921-72660a1d9945/deploy-status)](https://app.netlify.com/sites/hilarious-lily-fe1a3b/deploys)
@@ -42,24 +42,7 @@ Open http://localhost:5000/ to view it in your browser.
 
 Your code is now ready to be deployed!
 
-## Netlify
 
-To get your own instance of this 11st-Starter-Kit cloned and deploying to
-Netlify very quickly, just click the button below and follow the instructions.
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" />](https://app.netlify.com/start/deploy?repository=https://github.com/charles-amyx/11ty-starter)
-
-### Add some Netlify helpers
-
-Netlify Dev adds the ability to use Netlify redirects, proxies, and serverless functions.
-
-```bash
-# install the Netlify CLI in order to get netlify dev
-npm install -g netlify-cli
-
-# run a local server with some added Netlify sugar
-netlify dev
-```
 
 ## Code Quality
 
@@ -67,7 +50,7 @@ By default `CSS` and `JavaScript` is getting linted with every commit.
 
 You can lint manually by running `npm run lint` and if errors occur you can try to fix them automatically by running `npm run format`.
 
-With every pull request it is checked if the code can be build without errors and afterwards `CSS` and `JavaScript` is getting linted.
+With every pull request, the code is checked to if the site can be built without errors and afterwards `CSS` and `JavaScript` is getting linted.
 
 Additionally each page is audited by Lighthouse which can take some time. You can find the performance budget for this audit in the file `./budget.json`.
 
