@@ -11,11 +11,13 @@ intro:
     Island Records' hottest band from 2001 to 2012
 has_sidebar: true
 sidebar:
+  sticky: true
   infographic:
     value: 11
     desc: Years
     more: of amazing Hoobastank tunes, stories, laughs, living, and love.
   contact:
+    sectionTitle: Contact
     name: Paige Lloyd
     title: Trapper Keeper
     phone: 407-321-1234

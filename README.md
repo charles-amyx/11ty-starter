@@ -7,6 +7,8 @@
 with [Tailwind CSS](https://tailwindcss.com) and
 [Alpine.js](https://github.com/alpinejs/alpine/).
 
+This starter is based on a number of other similar starters found around Github. Thanks to all the people everywhere for it!
+
 ## Install Dependencies
 
 First, make sure you have `npm` (packaged with
